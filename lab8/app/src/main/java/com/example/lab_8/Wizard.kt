@@ -16,7 +16,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
                 } else return 0 // not enough mana
             }
             else -> {
-                return 0 // invalid spell
+                return 0 // invalid spell !
             }
         }
     }
